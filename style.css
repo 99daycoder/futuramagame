@@ -1,0 +1,56 @@
+ .score{
+     text-align: center;
+ }
+ #score {
+     text-align: center;
+ }
+#gameOver{
+    color: red;
+    text-align: center;
+}
+ #game {
+     width: 600px;
+     height: 300px;
+     border: 2px solid black;
+     margin: auto;
+     background-image: url("https://static.wikia.nocookie.net/enfuturama/images/3/32/New_New_York_Cityscape.jpg");
+     background-size: cover;
+
+ }
+
+ #dino {
+    width: 80px;
+    height: 150px;
+    position: relative;
+    top: 150px;
+    background-image: url("https://static.wikia.nocookie.net/all-worlds-alliance/images/d/dc/220px-Philip_Fry.png");
+    background-size: cover;
+
+   
+ }
+  #rock {
+    width: 50px;
+    height: 100px;
+    position: relative;
+    left: 550px;;
+    top:50px;
+    background-image: url("https://www.pngplay.com/wp-content/uploads/2/Alien-PNG-Background.png");
+    background-size: cover;
+    animation: rock 2.6s infinite;
+  }
+ 
+  @keyframes rock {
+ 0%{left: 550px}
+ 100% {left:-50px}
+  }
+  
+.jump-animation{
+    animation: jump 0.5s;
+}
+
+@keyframes jump {
+    0%{top:50px}
+    50%{top:0px}
+    75%{top:0px}
+    100%{top:50px}
+}
